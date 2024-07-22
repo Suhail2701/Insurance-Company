@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body
+{
+    color: black;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,180,203,1) 77%, rgba(0,212,255,1) 100%); */
+   background: linear-gradient(120deg, rgba(151,236,255,1) 65%, rgba(0,212,255,1) 100%);
+   padding: 10px;
+}
+
+header{
+    width: 100%; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container
+{
+    padding: 10px 10%;
+}
+
+.container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .logo-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo-container img{
+    width: 60px;
+    margin-right: 20px;
+    padding-bottom: 15px;
+}
+
+.contact-header img
+{
+    width: 10px;
+}
+
+hr
+{
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+.contact-header ul li
+{
+    text-decoration: none;
+}
+
+main{
+    width: 800px;
+    margin: 90px auto 10px;
+    background: linear-gradient(120deg, rgba(151,236,255,1) 0%, rgba(151,122,240,1) 16%, rgba(58,230,182,1) 100%);
+    /* background: linear-gradient(120deg, rgba(151,236,255,1) 0%, rgba(66,156,136,1) 18%, rgba(58,230,182,1) 65%); */
+    /* background: linear-gradient(120deg, rgba(151,236,255,1) 0%, rgba(78,231,198,1) 37%, rgba(58,230,182,1) 65%); */
+    /* background: linear-gradient(120deg, rgba(151,236,255,1) 6%, rgba(78,231,198,1) 59%, rgba(58,230,182,1) 65%); */
+    min-height: 300px;
+    border-radius: 2%;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+main h2
+{
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: underline;
+
+}
+form
+{
+    width: 500px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 100px; 
+    text-align: left; 
+    margin-right: 70px; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+input, textarea
+{
+    /* border: none; */
+    outline: none;
+}
+textarea
+{
+    width: 172px;
+}
+
+form input #Address
+{
+    min-height: 20px;
+}
+
+.btn
+{
+    margin-right: 50px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(6, 43, 116);
+    border: none;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.btn:hover
+{
+    color: green;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Policy</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+                    <img src="images/logo.png" alt="logo">
+                    <div  class="header-txt">
+                        <h3>SA INSURANCE COMPANY</h3>
+                        <p>Reliable Fast Personal</p>
+                    </div>
+                </div>
+                
+                <div class="user-details">
+                    <div class="user-spec">
+                        <p>Customer Name</p><span id="cusNameSpan">: Suhail Ahmed</span><br>
+                        <p>Customer ID</p><span id="cusIdSpan">: D54rDe4</span></br>
+                    </div>
+                    <div class="logOut">
+                        <p><img src="images/logout.png" alt="logOut" id="logoutBtn"> Logout</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    
+    <main>
+        <div class="cContainer">
+            <h2>Choose Your Policy</h2>
+            <form id="policyForm">
+                <label for="policyType"> Choose a Policy:</label>
+                <select name="policyType" id="policyType">
+                    <option value="life">Life Insurance</option>
+                    <option value="health">Health Insurance</option>
+                    <option value="car">Car Insurance</option>
+                    <option value="home">Home Insurance</option>
+                    <option value="travel">Travel Insurance</option>
+                </select> <br>
+
+                <label for="policyTitle">Policy Title:</label>
+                <select name="policyTitle" id="policyTitle"> 
+                                      
+                </select><br>
+
+                <label for="sumAssured">Sum Assured (Rs):</label>
+                <input type="text" name="sumAssured" id="sumAssured" readonly><br>
+
+                <label for="premiumAmount">Premium Amount (Rs):</label>
+                <input type="text" name="premiumAmount" id="premiumAmount" readonly><br>
+
+                <label for="policyTerm">Policy Term (Years):</label>
+                <input type="text" name="policyTerm" id="policyTerm" readonly><br>
+
+                <input type="submit" value="Confirm" class="btn" onclick="confirm()">
+                <input type="reset" value="View Policy" class="btn" onclick="viewPolicy()">
+            </form>
+        </div>
+    </main>
+</body>
+<script src="index4.js"></script>
+</html>
