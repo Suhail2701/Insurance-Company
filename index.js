@@ -53,6 +53,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
     });
 
+    const toLogin = document.getElementById('toLogin');
+    toLogin.addEventListener('click', function () {
+        window.location.href = "index2.html";
+    });
+
 });
 
 
