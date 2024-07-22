@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body
+{
+    color: black;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(79,180,203,1) 77%, rgba(0,212,255,1) 100%); */
+   background: linear-gradient(120deg, rgba(151,236,255,1) 65%, rgba(0,212,255,1) 100%);
+   padding: 10px;
+}
+
+header{
+    width: 100%; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container
+{
+    padding: 10px 10%;
+}
+
+.container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo-container img{
+    width: 60px;
+    margin-right: 20px;
+    padding-bottom: 15px;
+}
+
+.user-details
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black ; */
+    min-width: 370px;
+    padding: 10px;
+}
+
+.user-spec
+{
+    padding-right: 35px;
+}
+
+.logOut
+{
+    margin-left: 30px;
+}
+
+.logOut img
+{
+    width: 20px;
+}
+
+.user-spec p
+{
+    display: inline-block;
+    width: 150px; 
+    margin-top: 5px;
+}
+
+hr
+{
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+.contact-header ul li
+{
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    padding: 5px;
+    /* border: 1px solid black; */
+}
+
+.tableContainer
+{
+    margin: 10px auto 10px;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+table{
+    /* border:1px solid black; */
+    width: 100%;
+  }
+
+.tableContainer h2
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+    border:0.5px solid black;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+  }
