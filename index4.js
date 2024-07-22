@@ -182,3 +182,10 @@ function confirm()
             alert("Please select all fields!");
         }
 }
+
+const toHome = document.getElementById('toHome');
+toHome.addEventListener('click', function(){
+    const urlParams = new URLSearchParams(window.location.search);
+    const customerIDURL = urlParams.get('customerIDURL');
+    window.location.href = "index3.html?customerIDURL="+customerIDURL;
+});
