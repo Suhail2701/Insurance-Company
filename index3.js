@@ -19,8 +19,12 @@ window.onload = function()
         document.getElementById('cusIdSpan').textContent = user.customerId;
     }
 
-    const choosePolicy = document.getElementById('choosePolicy');
+};
+
+const choosePolicy = document.getElementById('choosePolicy');
     choosePolicy.addEventListener('click', function(){
+        const urlParams = new URLSearchParams(window.location.search);
+        const customerIDURL = urlParams.get('customerIDURL');
         window.location.href = 'index4.html?customerIDURL=' + customerIDURL;
     });
 
@@ -31,8 +35,6 @@ window.onload = function()
         localStorage.removeItem('currentSession');
         window.location.href = 'index2.html';
     });
-
-};
 
 function viewPolicy()
     {    
